@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body,html,#root{
+    width: 100%;
+    height: 100%;
+}
+.app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid #ccc;
+    line-height: 44px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: auto; 
+    .cont{
+         flex: 1;
+         overflow: auto;
+    
+    }
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+    align-items: center;
+}
+.dl{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #ccc;
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+    
+}
+ .img {
+     width: 100px;
+     height: 100px;
+ }
+ .carButton{
+     button{
+          width: 20px;
+     height: 20px;
+     }
+    
+ }

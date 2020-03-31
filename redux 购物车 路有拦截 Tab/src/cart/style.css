@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+button{
+    width: 15px;
+    height: 15px;
+}

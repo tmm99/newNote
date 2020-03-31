@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.jump {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  left: 0;
+}
+
+.cart {
+  width: 100%;
+  height: 260px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart dt {
+  margin-top: 10px;
+}
+
+.cart .lose, .cart .add {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.cart dd {
+  font-weight: bolder;
+  width: 100px;
+}

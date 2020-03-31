@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body, html, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app .head {
+  width: 100%;
+  height: 44px;
+  background: #0077ff;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app .main {
+  flex: 1;
+  overflow: auto;
+}
+
+.app .main .nav {
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app .main .buyNav {
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.active {
+  color: orange;
+}
+
+.ipt {
+  border: none;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+}
+
+.dl {
+  width: 150px;
+  height: 180px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.dataDl {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.sp {
+  color: orange;
+  font-weight: bold;
+}
